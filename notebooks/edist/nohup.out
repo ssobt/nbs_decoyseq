@@ -1,0 +1,78 @@
+[NbConvertApp] WARNING | Config option `extra_template_paths` not recognized by `NotebookExporter`.
+Traceback (most recent call last):
+  File "/home/ssobti/miniconda3/envs/mirtud_env/bin/jupyter-nbconvert", line 10, in <module>
+    sys.exit(main())
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/traitlets/config/application.py", line 1041, in launch_instance
+    app.start()
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 417, in start
+    self.convert_notebooks()
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 586, in convert_notebooks
+    self.exporter = cls(config=self.config)
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 118, in __init__
+    self._init_preprocessors()
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 279, in _init_preprocessors
+    self.register_preprocessor(preprocessor, enabled=True)
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 239, in register_preprocessor
+    preprocessor_cls = import_item(preprocessor)
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/traitlets/utils/importstring.py", line 30, in import_item
+    module = __import__(package, fromlist=[obj])
+ModuleNotFoundError: No module named 'jupyter_contrib_nbextensions'
+[NbConvertApp] WARNING | Config option `extra_template_paths` not recognized by `NotebookExporter`.
+Traceback (most recent call last):
+  File "/home/ssobti/miniconda3/envs/mirtud_env/bin/jupyter-nbconvert", line 10, in <module>
+    sys.exit(main())
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/traitlets/config/application.py", line 1041, in launch_instance
+    app.start()
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 417, in start
+    self.convert_notebooks()
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 586, in convert_notebooks
+    self.exporter = cls(config=self.config)
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 118, in __init__
+    self._init_preprocessors()
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 279, in _init_preprocessors
+    self.register_preprocessor(preprocessor, enabled=True)
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 239, in register_preprocessor
+    preprocessor_cls = import_item(preprocessor)
+  File "/home/ssobti/miniconda3/envs/mirtud_env/lib/python3.10/site-packages/traitlets/utils/importstring.py", line 30, in import_item
+    module = __import__(package, fromlist=[obj])
+ModuleNotFoundError: No module named 'jupyter_contrib_nbextensions'
+[NbConvertApp] Converting notebook mirtud_miR_edistance_v2_controls_separate_updated_input_data.ipynb to notebook
+During startup - Warning messages:
+1: package ‘methods’ was built under R version 4.2.2 
+2: package ‘datasets’ was built under R version 4.2.2 
+3: package ‘utils’ was built under R version 4.2.2 
+4: package ‘grDevices’ was built under R version 4.2.2 
+5: package ‘graphics’ was built under R version 4.2.2 
+6: package ‘stats’ was built under R version 4.2.2 
+[NbConvertApp] Converting notebook mirtud_miR_edistance_v2_controls_together_updated_input_data.ipynb to notebook
+During startup - Warning messages:
+1: package ‘methods’ was built under R version 4.2.2 
+2: package ‘datasets’ was built under R version 4.2.2 
+3: package ‘utils’ was built under R version 4.2.2 
+4: package ‘grDevices’ was built under R version 4.2.2 
+5: package ‘graphics’ was built under R version 4.2.2 
+6: package ‘stats’ was built under R version 4.2.2 
+[NbConvertApp] Writing 5405960 bytes to mirtud_miR_edistance_v2_controls_together_updated_input_data.nbconvert.ipynb
+[NbConvertApp] Writing 5448656 bytes to mirtud_miR_edistance_v2_controls_separate_updated_input_data.nbconvert.ipynb
+[NbConvertApp] Converting notebook mirtud_miR_edistance_v2_controls_separate_updated_input_data_not_using_miR_families.ipynb to notebook
+During startup - Warning messages:
+1: package ‘methods’ was built under R version 4.2.2 
+2: package ‘datasets’ was built under R version 4.2.2 
+3: package ‘utils’ was built under R version 4.2.2 
+4: package ‘grDevices’ was built under R version 4.2.2 
+5: package ‘graphics’ was built under R version 4.2.2 
+6: package ‘stats’ was built under R version 4.2.2 
+[NbConvertApp] Converting notebook mirtud_miR_edistance_v2_controls_together_updated_input_data_not_using_miR_families.ipynb to notebook
+During startup - Warning messages:
+1: package ‘methods’ was built under R version 4.2.2 
+2: package ‘datasets’ was built under R version 4.2.2 
+3: package ‘utils’ was built under R version 4.2.2 
+4: package ‘grDevices’ was built under R version 4.2.2 
+5: package ‘graphics’ was built under R version 4.2.2 
+6: package ‘stats’ was built under R version 4.2.2 
+[NbConvertApp] Writing 5771070 bytes to mirtud_miR_edistance_v2_controls_together_updated_input_data_not_using_miR_families.nbconvert.ipynb
+[NbConvertApp] Writing 5648167 bytes to mirtud_miR_edistance_v2_controls_separate_updated_input_data_not_using_miR_families.nbconvert.ipynb

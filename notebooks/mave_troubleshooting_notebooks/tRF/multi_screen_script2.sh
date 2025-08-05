@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source /home/ssobti/.bashrc
+
+
+session_names=("screen_job1" "screen_job2" "screen_job3" "screen_job4" "screen_job5" "screen_job6" "screen_job7" "screen_job8" "screen_job9" "screen_job10" "screen_job11" "screen_job12")
+
+coms=("nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 1 1 1 0.00001 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 1 1 1 0.0000000001 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 1 1 1 0.000000000000001 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 10000 1 1 0.0000000001 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 10000 1 1 0.000000000000001 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 1 1 1 100000 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 1 1 1 10000000000 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 1 1 1 1000000000000000 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 10000 1 1 10000000000 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 10000 1 1 1000000000000000 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 10000 1 1 0.0000000001 --batch all_batches --latent_vars 10 --max_epoch 1000" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells_guide_cell_cutoff_with_cell_sampling.ipynb --weights 10000 1 1 0.000000000000001 --batch all_batches --latent_vars 10 --max_epoch 1000")
+
+
+for i in ${!session_names[@]}; do
+  cd /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/tRF/parameter_set1
+  screen -s "/bin/bash" -dmS "${session_names[$i]}"; screen -S "${session_names[$i]}" -X stuff "ca mave\n ${coms[$i]}\n";
+done
+

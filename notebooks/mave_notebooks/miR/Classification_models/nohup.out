@@ -1,0 +1,17 @@
+Error executing Jupyter command 'nbconvert': [Errno 2] No such file or directory
+[NbConvertApp] Converting notebook Classification_MAVE_model_R10000_K1_C1_T1_batched_400epochs_1ctrl_gd_updatedmiRannotationlayer_80pct_trained_100cells_shap.ipynb to notebook
+2023-02-15 19:12:11.801785: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[NbConvertApp] Writing 8682823 bytes to Classification_MAVE_model_R10000_K1_C1_T1_batched_400epochs_1ctrl_gd_updatedmiRannotationlayer_80pct_trained_100cells_shap.nbconvert.ipynb
+[NbConvertApp] Converting notebook Classification_MAVE_model_R10000_K1_C1_T1_batched_400epochs_1ctrl_gd_updatedmiRannotationlayer_80pct_trained_100cells_shap.ipynb to notebook
+2023-02-19 16:11:10.526350: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[NbConvertApp] Converting notebook Classification_MAVE_model_R10000_K1_C1_T1_batched_400epochs_1ctrl_gd_updatedmiRannotationlayer_80pct_trained_100cells_shap.ipynb to notebook
+2023-02-19 16:17:12.657995: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[NbConvertApp] Converting notebook Classification_MAVE_model_R10000_K1_C1_T1_batched_400epochs_1ctrl_gd_updatedmiRannotationlayer_80pct_trained_100cells_shap.ipynb to notebook
+2023-02-19 18:32:23.722122: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[NbConvertApp] Writing 8940925 bytes to Classification_MAVE_model_R10000_K1_C1_T1_batched_400epochs_1ctrl_gd_updatedmiRannotationlayer_80pct_trained_100cells_shap.nbconvert.ipynb

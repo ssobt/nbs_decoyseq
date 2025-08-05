@@ -1,0 +1,26 @@
+[NbConvertApp] Converting notebook /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K100_C1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K1_C1_T100_low_control.ipynb to notebook
+[NbConvertApp] Converting notebook /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K1_C1_T0.001_high_control.ipynb to notebook
+[NbConvertApp] Converting notebook /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C1_T100.ipynb to notebook
+[NbConvertApp] Converting notebook /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C1_T0.01.ipynb to notebook
+Process 3573865 dead!
+Process 3573865 detected
+[NbConvertApp] Writing 1614058 bytes to /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K100_C1_T0.01.nbconvert.ipynb
+Process 3573895 dead!
+Process 3573895 detected
+[NbConvertApp] Writing 1617905 bytes to /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C1_T100.nbconvert.ipynb
+Process 3573892 dead!
+Process 3573892 detected
+[NbConvertApp] Writing 1619363 bytes to /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C1_T0.01.nbconvert.ipynb
+Process 3573875 dead!
+Process 3573875 detected
+[NbConvertApp] Writing 1610162 bytes to /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K1_C1_T0.001_high_control.nbconvert.ipynb
+Process 3573869 dead!
+Process 3573869 detected
+[NbConvertApp] Writing 1616083 bytes to /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_R100_K1_C1_T100_low_control.nbconvert.ipynb
+Process 3573872 dead!
+Process 3573872 detected
+[NbConvertApp] Writing 1614592 bytes to /home/ssobti/projects/mir_tud/notebooks/mave_troubleshooting_notebooks/groupA/MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C1_T0.01.nbconvert.ipynb
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K100_C1_T0.001.ipynb to notebook
+[NbConvertApp] Writing 1610359 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K100_C1_T0.001.nbconvert.ipynb

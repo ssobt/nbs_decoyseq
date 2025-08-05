@@ -1,0 +1,403 @@
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T100.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K100_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T0.001_low_control.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T100_high_control.ipynb to notebook
+[NbConvertApp] Writing 1485703 bytes to MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C0.1_T0.01.nbconvert.ipynb
+No process found
+Process 1220265 dead!
+Process 1220265 detected
+[NbConvertApp] Writing 1489725 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T0.01.nbconvert.ipynb
+Process 1221457 dead!
+Process 1221457 detected
+[NbConvertApp] Writing 1491849 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T100.nbconvert.ipynb
+Process 1222749 dead!
+Process 1222749 detected
+[NbConvertApp] Writing 1495327 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K100_C0.1_T0.01.nbconvert.ipynb
+Process 1225251 dead!
+Process 1225251 detected
+[NbConvertApp] Writing 1496183 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T100_high_control.nbconvert.ipynb
+Process 1224311 dead!
+Process 1224311 detected
+[NbConvertApp] Writing 1496725 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T0.001_low_control.nbconvert.ipynb
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T100_high_control.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T0.001_low_control.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K100_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T100.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Writing 1520287 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T0.001_low_control.nbconvert.ipynb
+[NbConvertApp] Writing 1518251 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T100_high_control.nbconvert.ipynb
+[NbConvertApp] Writing 1520555 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K100_C0.1_T0.01.nbconvert.ipynb
+[NbConvertApp] Writing 1523275 bytes to MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C0.1_T0.01.nbconvert.ipynb
+[NbConvertApp] Writing 1522760 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T100.nbconvert.ipynb
+[NbConvertApp] Writing 1523888 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T0.01.nbconvert.ipynb
+[NbConvertApp] WARNING | Config option `extra_template_paths` not recognized by `NotebookExporter`.
+Traceback (most recent call last):
+  File "/home/ssobti/miniconda3/envs/mave/bin/jupyter-nbconvert", line 10, in <module>
+    sys.exit(main())
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/jupyter_core/application.py", line 269, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/traitlets/config/application.py", line 982, in launch_instance
+    app.start()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 426, in start
+    self.convert_notebooks()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 595, in convert_notebooks
+    self.exporter = cls(config=self.config)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 118, in __init__
+    self._init_preprocessors()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 279, in _init_preprocessors
+    self.register_preprocessor(preprocessor, enabled=True)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 239, in register_preprocessor
+    preprocessor_cls = import_item(preprocessor)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/traitlets/utils/importstring.py", line 30, in import_item
+    module = __import__(package, fromlist=[obj])
+ModuleNotFoundError: No module named 'jupyter_contrib_nbextensions'
+[NbConvertApp] WARNING | pattern 'MAVE_trial_trblshoot_weight_shifting_default_R1' matched no files
+This application is used to convert notebook files (*.ipynb)
+        to various other formats.
+
+        WARNING: THE COMMANDLINE INTERFACE MAY CHANGE IN FUTURE RELEASES.
+
+Options
+=======
+The options below are convenience aliases to configurable class-options,
+as listed in the "Equivalent to" description-line of the aliases.
+To see all configurable class-options for some <cmd>, use:
+    <cmd> --help-all
+
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+    Equivalent to: [--Application.log_level=10]
+--show-config
+    Show the application's configuration (human-readable format)
+    Equivalent to: [--Application.show_config=True]
+--show-config-json
+    Show the application's configuration (json format)
+    Equivalent to: [--Application.show_config_json=True]
+--generate-config
+    generate default config file
+    Equivalent to: [--JupyterApp.generate_config=True]
+-y
+    Answer yes to any questions instead of prompting.
+    Equivalent to: [--JupyterApp.answer_yes=True]
+--execute
+    Execute the notebook prior to export.
+    Equivalent to: [--ExecutePreprocessor.enabled=True]
+--allow-errors
+    Continue notebook execution even if one of the cells throws an error and include the error message in the cell output (the default behaviour is to abort conversion). This flag is only relevant if '--execute' was specified, too.
+    Equivalent to: [--ExecutePreprocessor.allow_errors=True]
+--stdin
+    read a single notebook file from stdin. Write the resulting notebook with default basename 'notebook.*'
+    Equivalent to: [--NbConvertApp.from_stdin=True]
+--stdout
+    Write notebook output to stdout instead of files.
+    Equivalent to: [--NbConvertApp.writer_class=StdoutWriter]
+--inplace
+    Run nbconvert in place, overwriting the existing notebook (only
+            relevant when converting to notebook format)
+    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory=]
+--clear-output
+    Clear output of current file and save in place,
+            overwriting the existing notebook.
+    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory= --ClearOutputPreprocessor.enabled=True]
+--no-prompt
+    Exclude input and output prompts from converted document.
+    Equivalent to: [--TemplateExporter.exclude_input_prompt=True --TemplateExporter.exclude_output_prompt=True]
+--no-input
+    Exclude input cells and output prompts from converted document.
+            This mode is ideal for generating code-free reports.
+    Equivalent to: [--TemplateExporter.exclude_output_prompt=True --TemplateExporter.exclude_input=True --TemplateExporter.exclude_input_prompt=True]
+--allow-chromium-download
+    Whether to allow downloading chromium if no suitable version is found on the system.
+    Equivalent to: [--WebPDFExporter.allow_chromium_download=True]
+--disable-chromium-sandbox
+    Disable chromium security sandbox when converting to PDF..
+    Equivalent to: [--WebPDFExporter.disable_sandbox=True]
+--show-input
+    Shows code input. This flag is only useful for dejavu users.
+    Equivalent to: [--TemplateExporter.exclude_input=False]
+--embed-images
+    Embed the images as base64 dataurls in the output. This flag is only useful for the HTML/WebPDF/Slides exports.
+    Equivalent to: [--HTMLExporter.embed_images=True]
+--sanitize-html
+    Whether the HTML in Markdown cells and cell outputs should be sanitized..
+    Equivalent to: [--HTMLExporter.sanitize_html=True]
+--log-level=<Enum>
+    Set the log level by value or name.
+    Choices: any of [0, 10, 20, 30, 40, 50, 'DEBUG', 'INFO', 'WARN', 'ERROR', 'CRITICAL']
+    Default: 30
+    Equivalent to: [--Application.log_level]
+--config=<Unicode>
+    Full path of a config file.
+    Default: ''
+    Equivalent to: [--JupyterApp.config_file]
+--to=<Unicode>
+    The export format to be used, either one of the built-in formats
+            ['asciidoc', 'custom', 'html', 'latex', 'markdown', 'notebook', 'pdf', 'python', 'qtpdf', 'qtpng', 'rst', 'script', 'slides', 'webpdf']
+            or a dotted object name that represents the import path for an
+            ``Exporter`` class
+    Default: ''
+    Equivalent to: [--NbConvertApp.export_format]
+--template=<Unicode>
+    Name of the template to use
+    Default: ''
+    Equivalent to: [--TemplateExporter.template_name]
+--template-file=<Unicode>
+    Name of the template file to use
+    Default: None
+    Equivalent to: [--TemplateExporter.template_file]
+--theme=<Unicode>
+    Template specific theme(e.g. the name of a JupyterLab CSS theme distributed
+    as prebuilt extension for the lab template)
+    Default: 'light'
+    Equivalent to: [--HTMLExporter.theme]
+--sanitize_html=<Bool>
+    Whether the HTML in Markdown cells and cell outputs should be sanitized.This
+    should be set to True by nbviewer or similar tools.
+    Default: False
+    Equivalent to: [--HTMLExporter.sanitize_html]
+--writer=<DottedObjectName>
+    Writer class used to write the
+                                        results of the conversion
+    Default: 'FilesWriter'
+    Equivalent to: [--NbConvertApp.writer_class]
+--post=<DottedOrNone>
+    PostProcessor class used to write the
+                                        results of the conversion
+    Default: ''
+    Equivalent to: [--NbConvertApp.postprocessor_class]
+--output=<Unicode>
+    overwrite base name use for output files.
+                can only be used when converting one notebook at a time.
+    Default: ''
+    Equivalent to: [--NbConvertApp.output_base]
+--output-dir=<Unicode>
+    Directory to write output(s) to. Defaults
+                                  to output to the directory of each notebook. To recover
+                                  previous default behaviour (outputting to the current
+                                  working directory) use . as the flag value.
+    Default: ''
+    Equivalent to: [--FilesWriter.build_directory]
+--reveal-prefix=<Unicode>
+    The URL prefix for reveal.js (version 3.x).
+            This defaults to the reveal CDN, but can be any url pointing to a copy
+            of reveal.js.
+            For speaker notes to work, this must be a relative path to a local
+            copy of reveal.js: e.g., "reveal.js".
+            If a relative path is given, it must be a subdirectory of the
+            current directory (from which the server is run).
+            See the usage documentation
+            (https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow)
+            for more details.
+    Default: ''
+    Equivalent to: [--SlidesExporter.reveal_url_prefix]
+--nbformat=<Enum>
+    The nbformat version to write.
+            Use this to downgrade notebooks.
+    Choices: any of [1, 2, 3, 4]
+    Default: 4
+    Equivalent to: [--NotebookExporter.nbformat_version]
+
+Examples
+--------
+
+    The simplest way to use nbconvert is
+
+            > jupyter nbconvert mynotebook.ipynb --to html
+
+            Options include ['asciidoc', 'custom', 'html', 'latex', 'markdown', 'notebook', 'pdf', 'python', 'qtpdf', 'qtpng', 'rst', 'script', 'slides', 'webpdf'].
+
+            > jupyter nbconvert --to latex mynotebook.ipynb
+
+            Both HTML and LaTeX support multiple output templates. LaTeX includes
+            'base', 'article' and 'report'.  HTML includes 'basic', 'lab' and
+            'classic'. You can specify the flavor of the format used.
+
+            > jupyter nbconvert --to html --template lab mynotebook.ipynb
+
+            You can also pipe the output to stdout, rather than a file
+
+            > jupyter nbconvert mynotebook.ipynb --stdout
+
+            PDF is generated via latex
+
+            > jupyter nbconvert mynotebook.ipynb --to pdf
+
+            You can get (and serve) a Reveal.js-powered slideshow
+
+            > jupyter nbconvert myslides.ipynb --to slides --post serve
+
+            Multiple notebooks can be given at the command line in a couple of
+            different ways:
+
+            > jupyter nbconvert notebook*.ipynb
+            > jupyter nbconvert notebook1.ipynb notebook2.ipynb
+
+            or you can specify the notebooks list in a config file, containing::
+
+                c.NbConvertApp.notebooks = ["my_notebook.ipynb"]
+
+            > jupyter nbconvert --config mycfg.py
+
+To see all available configurables, use `--help-all`.
+
+[NbConvertApp] WARNING | Config option `extra_template_paths` not recognized by `NotebookExporter`.
+Traceback (most recent call last):
+  File "/home/ssobti/miniconda3/envs/mave/bin/jupyter-nbconvert", line 10, in <module>
+    sys.exit(main())
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/jupyter_core/application.py", line 269, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/traitlets/config/application.py", line 982, in launch_instance
+    app.start()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 426, in start
+    self.convert_notebooks()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 595, in convert_notebooks
+    self.exporter = cls(config=self.config)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 118, in __init__
+    self._init_preprocessors()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 279, in _init_preprocessors
+    self.register_preprocessor(preprocessor, enabled=True)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 239, in register_preprocessor
+    preprocessor_cls = import_item(preprocessor)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/traitlets/utils/importstring.py", line 30, in import_item
+    module = __import__(package, fromlist=[obj])
+ModuleNotFoundError: No module named 'jupyter_contrib_nbextensions'
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T100.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K100_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T0.001_low_control.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T100_high_control.ipynb to notebook
+Process 4095529 dead!
+Process 4095529 detected
+[NbConvertApp] Writing 1585799 bytes to MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C0.1_T0.01.nbconvert.ipynb
+Process 4099782 dead!
+Process 4099782 detected
+[NbConvertApp] Writing 1583504 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T0.01.nbconvert.ipynb
+Process 4101950 dead!
+Process 4101950 detected
+[NbConvertApp] Writing 1582809 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K100_C0.1_T0.01.nbconvert.ipynb
+Process 4100890 dead!
+Process 4100890 detected
+[NbConvertApp] Writing 1587130 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T100.nbconvert.ipynb
+Process 4103422 dead!
+Process 4103422 detected
+[NbConvertApp] Writing 1574376 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T0.001_low_control.nbconvert.ipynb
+Process 4104774 dead!
+Process 4104774 detected
+[NbConvertApp] Writing 1584989 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T100_high_control.nbconvert.ipynb
+[NbConvertApp] WARNING | Config option `extra_template_paths` not recognized by `NotebookExporter`.
+Traceback (most recent call last):
+  File "/home/ssobti/miniconda3/envs/mave/bin/jupyter-nbconvert", line 10, in <module>
+    sys.exit(main())
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/traitlets/config/application.py", line 1041, in launch_instance
+    app.start()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 417, in start
+    self.convert_notebooks()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 586, in convert_notebooks
+    self.exporter = cls(config=self.config)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 118, in __init__
+    self._init_preprocessors()
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 279, in _init_preprocessors
+    self.register_preprocessor(preprocessor, enabled=True)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 239, in register_preprocessor
+    preprocessor_cls = import_item(preprocessor)
+  File "/home/ssobti/miniconda3/envs/mave/lib/python3.10/site-packages/traitlets/utils/importstring.py", line 30, in import_item
+    module = __import__(package, fromlist=[obj])
+ModuleNotFoundError: No module named 'jupyter_contrib_nbextensions'
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T100.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K100_C0.1_T0.01.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T0.001_low_control.ipynb to notebook
+[NbConvertApp] Converting notebook MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T100_high_control.ipynb to notebook
+Process 2257481 detected
+Exiting...
+Process 2248805 dead!
+Process 2248805 detected
+[NbConvertApp] Writing 1619069 bytes to MAVE_trial_trblshoot_weight_shifting_default_R100_K1_C0.1_T0.01.nbconvert.ipynb
+Process 2250217 dead!
+Process 2250217 detected
+[NbConvertApp] Writing 1617187 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T0.01.nbconvert.ipynb
+Process 2255906 dead!
+Process 2255906 detected
+[NbConvertApp] Writing 1621901 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T0.001_low_control.nbconvert.ipynb
+Process 2252175 dead!
+Process 2252175 detected
+[NbConvertApp] Writing 1610538 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K0.001_C0.1_T100.nbconvert.ipynb
+Process 2253965 dead!
+Process 2253965 detected
+[NbConvertApp] Writing 1612001 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K100_C0.1_T0.01.nbconvert.ipynb
+Process 2257481 dead!
+Process 2257481 detected
+[NbConvertApp] Writing 1615721 bytes to MAVE_trial_trblshoot_weight_shifting_R100_K1_C0.1_T100_high_control.nbconvert.ipynb
+Process 5103 dead!
+Process 5103 detected
+Process 5119 dead!
+Process 5119 detected
+Process 5110 dead!
+Process 5110 detected
+Process 5118 dead!
+Process 5118 detected
+Process 1607281 detected
+Exiting...
+Process 1668044 detected
+Exiting...
+Process 1668047 detected
+Exiting...
+Process 1607281 dead!
+Process 1607281 detected
+Process 1668044 dead!
+Process 1668044 detected
+Process 1668047 dead!
+Process 1668047 detected
+Process 1786877 dead!
+Process 1786877 detected
+Process 1786884 dead!
+Process 1786884 detected
+Process 1786891 dead!
+Process 1786891 detected
+Process 2418181 dead!
+Process 2418181 detected
+Process 2418180 dead!
+Process 2418180 detected
+Process 2418182 dead!
+Process 2418182 detected
+Process 3387426 dead!
+Process 3387426 detected
+Process 3387422 dead!
+Process 3387422 detected
+Process 3387415 dead!
+Process 3387415 detected
+Process 552132 dead!
+Process 552132 detected
+Process 552118 dead!
+Process 552118 detected
+Process 552125 dead!
+Process 552125 detected
+Process 1096181 detected
+Exiting...
+Process 1092941 detected
+Exiting...
+Process 1093693 detected
+Exiting...
+Process 1091138 dead!
+Process 1091138 detected
+Process 1093693 dead!
+Process 1093693 detected
+Process 1095065 dead!
+Process 1095065 detected
+Process 1092941 dead!
+Process 1092941 detected
+Process 1096181 dead!
+Process 1096181 detected
+[NbConvertApp] Converting notebook shap_troubleshooting.ipynb to notebook
+2023-02-03 20:27:41.462302: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Process 1282091 dead!
+Process 1282091 detected
+[NbConvertApp] Writing 1459449 bytes to shap_troubleshooting.nbconvert.ipynb

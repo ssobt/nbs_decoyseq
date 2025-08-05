@@ -1,0 +1,237 @@
+[NbConvertApp] WARNING | Config option `extra_template_paths` not recognized by `NotebookExporter`.
+Traceback (most recent call last):
+  File "/home/ssobti/miniconda3/envs/brian_script_env/bin/jupyter-nbconvert", line 10, in <module>
+    sys.exit(main())
+  File "/home/ssobti/miniconda3/envs/brian_script_env/lib/python3.10/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/home/ssobti/miniconda3/envs/brian_script_env/lib/python3.10/site-packages/traitlets/config/application.py", line 1041, in launch_instance
+    app.start()
+  File "/home/ssobti/miniconda3/envs/brian_script_env/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 417, in start
+    self.convert_notebooks()
+  File "/home/ssobti/miniconda3/envs/brian_script_env/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 586, in convert_notebooks
+    self.exporter = cls(config=self.config)
+  File "/home/ssobti/miniconda3/envs/brian_script_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 118, in __init__
+    self._init_preprocessors()
+  File "/home/ssobti/miniconda3/envs/brian_script_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 279, in _init_preprocessors
+    self.register_preprocessor(preprocessor, enabled=True)
+  File "/home/ssobti/miniconda3/envs/brian_script_env/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 239, in register_preprocessor
+    preprocessor_cls = import_item(preprocessor)
+  File "/home/ssobti/miniconda3/envs/brian_script_env/lib/python3.10/site-packages/traitlets/utils/importstring.py", line 30, in import_item
+    module = __import__(package, fromlist=[obj])
+ModuleNotFoundError: No module named 'jupyter_contrib_nbextensions'
+[NbConvertApp] Converting notebook Finding_variable_genes.ipynb to notebook
+[NbConvertApp] Writing 9244 bytes to Finding_variable_genes.nbconvert.ipynb
+[NbConvertApp] Converting notebook Finding_variable_genes.ipynb to notebook
+[NbConvertApp] Writing 17304 bytes to Finding_variable_genes.nbconvert.ipynb
+[NbConvertApp] Converting notebook Finding_variable_genes.ipynb to notebook
+[NbConvertApp] Writing 16477 bytes to Finding_variable_genes.nbconvert.ipynb
+[NbConvertApp] Converting notebook Finding_variable_genes.ipynb to notebook
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[NbConvertApp] Writing 17554 bytes to Finding_variable_genes.nbconvert.ipynb
+[NbConvertApp] Converting notebook Finding_variable_genes.ipynb to notebook
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[NbConvertApp] Writing 21767 bytes to Finding_variable_genes.nbconvert.ipynb
+[NbConvertApp] Converting notebook Finding_variable_genes.ipynb to notebook
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[NbConvertApp] Writing 83079 bytes to Finding_variable_genes.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_all_genes.ipynb to notebook
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_gene_median_aboveorequalto1.ipynb to notebook
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_top2000var.ipynb to notebook
+[NbConvertApp] Writing 96742 bytes to miR_heterogeneity_nb_CV_top2000var.nbconvert.ipynb
+[NbConvertApp] Writing 96769 bytes to miR_heterogeneity_nb_CV_gene_median_aboveorequalto1.nbconvert.ipynb
+[NbConvertApp] Writing 96797 bytes to miR_heterogeneity_nb_CV_all_genes.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_all_genes.ipynb to notebook
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_gene_median_aboveorequalto1.ipynb to notebook
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_top2000var.ipynb to notebook
+[NbConvertApp] Writing 96737 bytes to miR_heterogeneity_nb_CV_top2000var.nbconvert.ipynb
+Warning message:
+ggrepel: 358 unlabeled data points (too many overlaps). Consider increasing max.overlaps 
+[NbConvertApp] Writing 110282 bytes to miR_heterogeneity_nb_CV_gene_median_aboveorequalto1.nbconvert.ipynb
+[NbConvertApp] Writing 96743 bytes to miR_heterogeneity_nb_CV_all_genes.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_gene_median_aboveorequalto1_nofixedcellcount.ipynb to notebook
+[NbConvertApp] Writing 95276 bytes to miR_heterogeneity_nb_CV_gene_median_aboveorequalto1_nofixedcellcount.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_gene_median_aboveorequalto1_nofixedcellcount.ipynb to notebook
+Warning message:
+ggrepel: 747 unlabeled data points (too many overlaps). Consider increasing max.overlaps 
+[NbConvertApp] Writing 128993 bytes to miR_heterogeneity_nb_CV_gene_median_aboveorequalto1_nofixedcellcount.nbconvert.ipynb
+Error executing Jupyter command 'nbconvert': [Errno 2] No such file or directory
+[NbConvertApp] WARNING | Config option `extra_template_paths` not recognized by `NotebookExporter`.
+Traceback (most recent call last):
+  File "/home/ssobti/miniconda3/envs/seuratdisk/bin/jupyter-nbconvert", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/ssobti/miniconda3/envs/seuratdisk/lib/python3.11/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ssobti/miniconda3/envs/seuratdisk/lib/python3.11/site-packages/traitlets/config/application.py", line 1043, in launch_instance
+    app.start()
+  File "/home/ssobti/miniconda3/envs/seuratdisk/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 418, in start
+    self.convert_notebooks()
+  File "/home/ssobti/miniconda3/envs/seuratdisk/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 587, in convert_notebooks
+    self.exporter = cls(config=self.config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ssobti/miniconda3/envs/seuratdisk/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 122, in __init__
+    self._init_preprocessors()
+  File "/home/ssobti/miniconda3/envs/seuratdisk/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 289, in _init_preprocessors
+    self.register_preprocessor(preprocessor, enabled=True)
+  File "/home/ssobti/miniconda3/envs/seuratdisk/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 249, in register_preprocessor
+    preprocessor_cls = import_item(preprocessor)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ssobti/miniconda3/envs/seuratdisk/lib/python3.11/site-packages/traitlets/utils/importstring.py", line 30, in import_item
+    module = __import__(package, fromlist=[obj])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'jupyter_contrib_nbextensions'
+[NbConvertApp] Converting notebook miR_data_prep.ipynb to notebook
+Traceback (most recent call last):
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/bin/jupyter-nbconvert", line 10, in <module>
+    sys.exit(main())
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_core/application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/traitlets/config/application.py", line 1043, in launch_instance
+    app.start()
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 418, in start
+    self.convert_notebooks()
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 592, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 555, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/nbconvertapp.py", line 483, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 198, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 217, in from_file
+    return self.from_notebook_node(
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/exporters/notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 153, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/exporters/exporter.py", line 349, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/preprocessors/base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbconvert/preprocessors/execute.py", line 94, in preprocess
+    with self.setup_kernel():
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbclient/client.py", line 595, in setup_kernel
+    self.start_new_kernel(**kwargs)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 166, in wrapped
+    return loop.run_until_complete(inner)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/nbclient/client.py", line 543, in async_start_new_kernel
+    await ensure_async(self.km.start_kernel(extra_arguments=self.extra_arguments, **kwargs))
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 158, in wrapped
+    return _runner_map[name].run(inner)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 125, in run
+    return fut.result(None)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_client/manager.py", line 93, in wrapper
+    raise e
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_client/manager.py", line 85, in wrapper
+    out = await method(self, *args, **kwargs)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_client/manager.py", line 397, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_client/manager.py", line 359, in _async_pre_start_kernel
+    self.kernel_spec,
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_client/manager.py", line 182, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+  File "/home/ssobti/miniconda3/envs/seuratdisk2/lib/python3.10/site-packages/jupyter_client/kernelspec.py", line 287, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named ir
+[NbConvertApp] Converting notebook miR_data_prep.ipynb to notebook
+[NbConvertApp] Writing 9358 bytes to miR_data_prep.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_data_prep.ipynb to notebook
+[NbConvertApp] Writing 812730 bytes to miR_data_prep.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_data_prep.ipynb to notebook
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[NbConvertApp] Writing 865472 bytes to miR_data_prep.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_data_prep.ipynb to notebook
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[NbConvertApp] Writing 864750 bytes to miR_data_prep.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_data_prep.ipynb to notebook
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[NbConvertApp] Writing 961500 bytes to miR_data_prep.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_all_genes_updated_input.ipynb to notebook
+[NbConvertApp] Writing 100287 bytes to miR_heterogeneity_nb_CV_all_genes_updated_input.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_all_genes_updated_input.ipynb to notebook
+Warning message:
+ggrepel: 635 unlabeled data points (too many overlaps). Consider increasing max.overlaps 
+[NbConvertApp] Writing 174218 bytes to miR_heterogeneity_nb_CV_all_genes_updated_input.nbconvert.ipynb
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_gene_median_aboveorequalto0.01_nofixedcellcount_updated_input.ipynb to notebook
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_gene_median_aboveorequalto0.01_updated_input.ipynb to notebook
+[NbConvertApp] Converting notebook miR_heterogeneity_nb_CV_top2000var_updated_input.ipynb to notebook
+[NbConvertApp] Writing 101442 bytes to miR_heterogeneity_nb_CV_top2000var_updated_input.nbconvert.ipynb
+[NbConvertApp] Writing 96937 bytes to miR_heterogeneity_nb_CV_gene_median_aboveorequalto0.01_nofixedcellcount_updated_input.nbconvert.ipynb
+Warning message:
+ggrepel: 645 unlabeled data points (too many overlaps). Consider increasing max.overlaps 
+[NbConvertApp] Writing 148828 bytes to miR_heterogeneity_nb_CV_gene_median_aboveorequalto0.01_updated_input.nbconvert.ipynb
+Process 4097494 dead!
+Process 4097494 detected
+[NbConvertApp] Converting notebook tRF_data_prep.ipynb to notebook
+[NbConvertApp] Writing 843942 bytes to tRF_data_prep.nbconvert.ipynb
+[NbConvertApp] Converting notebook tRF_heterogeneity_nb_CV_gene_median_aboveorequalto0.01_updated_input.ipynb to notebook
+Warning message:
+ggrepel: 234 unlabeled data points (too many overlaps). Consider increasing max.overlaps 
+[NbConvertApp] Writing 113198 bytes to tRF_heterogeneity_nb_CV_gene_median_aboveorequalto0.01_updated_input.nbconvert.ipynb
+[NbConvertApp] Converting notebook tRF_heterogeneity_nb_CV_gene_median_aboveorequalto0.01_updated_input.ipynb to notebook
+Warning message:
+ggrepel: 234 unlabeled data points (too many overlaps). Consider increasing max.overlaps 
+[NbConvertApp] Writing 113340 bytes to tRF_heterogeneity_nb_CV_gene_median_aboveorequalto0.01_updated_input.nbconvert.ipynb

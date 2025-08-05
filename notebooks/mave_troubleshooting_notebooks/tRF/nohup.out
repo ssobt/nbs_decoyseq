@@ -1,0 +1,205 @@
+[NbConvertApp] Converting notebook creating_and_saving_batch_1_2_3_4thru6_cell_barcodes.ipynb to notebook
+2024-03-25 17:39:55.703650: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[NbConvertApp] Writing 1833845 bytes to creating_and_saving_batch_1_2_3_4thru6_cell_barcodes.nbconvert.ipynb
+[NbConvertApp] Converting notebook creating_and_saving_batch_1_2_3_4thru6_cell_barcodes.ipynb to notebook
+2024-03-26 12:34:58.102478: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[NbConvertApp] Writing 1826284 bytes to creating_and_saving_batch_1_2_3_4thru6_cell_barcodes.nbconvert.ipynb
+[NbConvertApp] Converting notebook creating_and_saving_batch_1_2_3_4thru6_cell_barcodes.ipynb to notebook
+2024-03-26 13:05:49.346484: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[NbConvertApp] Writing 1825533 bytes to creating_and_saving_batch_1_2_3_4thru6_cell_barcodes.nbconvert.ipynb
+[NbConvertApp] Converting notebook creating_and_saving_batch_1_2_3_4thru6_cell_barcodes.ipynb to notebook
+2024-03-26 15:14:47.447186: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[NbConvertApp] Writing 1828613 bytes to creating_and_saving_batch_1_2_3_4thru6_cell_barcodes.nbconvert.ipynb
+./multi_screen_script.sh: line 5: syntax error near unexpected token `('
+./multi_screen_script.sh: line 5: `    ["R10kK1C1T1"]=("ca mave" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells.ipynb --weights 10000 1 1 1")'
+./multi_screen_script.sh: line 6: syntax error near unexpected token `"ca mave"'
+./multi_screen_script.sh: line 6: `    ["R1K1C1T1"]=("ca mave" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells.ipynb --weights 1 1 1 1")'
+multi_screen_script.sh: line 5: syntax error near unexpected token `('
+multi_screen_script.sh: line 5: `    ["R10kK1C1T1"]=("ca mave" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells.ipynb --weights 10000 1 1 1")'
+multi_screen_script.sh: line 6: syntax error near unexpected token `"ca mave"'
+multi_screen_script.sh: line 6: `    ["R1K1C1T1"]=("ca mave" "nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells.ipynb --weights 1 1 1 1")'
+bash: line 1: multi_screen_script.sh: command not found
+./tt.sh: line 5: syntax error near unexpected token `('
+./tt.sh: line 5: `    ["session1"]=("echo 'Command 1 in session 1'" "echo 'Command 2 in session 1'")'
+./tt.sh: line 6: syntax error near unexpected token `"ls -l"'
+./tt.sh: line 6: `    ["session2"]=("ls -l" "pwd")'
+./multi_screen_script2.sh: line 7: syntax error near unexpected token `)'
+./multi_screen_script2.sh: line 7: `    ["R1K1C1T1"]="ca mave; nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells.ipynb --weights 1 1 1 1")'
+./multi_screen_script2.sh: line 16: [R10kK1C1T10-5]=ca mave; nbclick MAVE_trial_trblshoot_weight_shifting_R10000_K1_C1_T1_no_control_cells.ipynb --weights 10000 1 1 0.00001 --batch batch_4thru6: bad array subscript
+./multi_screen_script2.sh: line 16: R10kK1C10-5T1: value too great for base (error token is "5T1")
+Commands sent to screen sessions.
+There are several suitable screens on:
+	1656261.0	(03/27/2024 09:09:11 PM)	(Detached)
+	1653650.0	(03/27/2024 09:07:27 PM)	(Detached)
+Use -S to specify a session.
+There are several suitable screens on:
+	1656261.0	(03/27/2024 09:09:11 PM)	(Detached)
+	1653650.0	(03/27/2024 09:07:27 PM)	(Detached)
+Use -S to specify a session.
+Commands sent to screen sessions.
+Process 1963759 dead!
+Process 1963759 detected
+Process 1963752 dead!
+Process 1963752 detected
+Process 1963787 dead!
+Process 1963787 detected
+Process 1963770 dead!
+Process 1963770 detected
+Process 1963780 dead!
+Process 1963780 detected
+Process 1963738 dead!
+Process 1963738 detected
+Process 1963745 dead!
+Process 1963745 detected
+Process 1963767 dead!
+Process 1963767 detected
+Process 3919032 dead!
+Process 3919032 detected
+Process 3919021 dead!
+Process 3919021 detected
+Process 3919009 dead!
+Process 3919009 detected
+Process 3919029 dead!
+Process 3919029 detected
+Process 3919015 dead!
+Process 3919015 detected
+Process 3919043 dead!
+Process 3919043 detected
+Process 3919028 dead!
+Process 3919028 detected
+Process 3919022 dead!
+Process 3919022 detected
+Process 3919000 dead!
+Process 3919000 detected
+Process 3919024 dead!
+Process 3919024 detected
+Process 3919020 dead!
+Process 3919020 dead!
+Process 3919020 detected
+Process 3919020 detected
+Process 3919019 dead!
+Process 3919019 detected
+Process 1208920 dead!
+Process 1208920 detected
+Process 1208933 dead!
+Process 1208933 detected
+Process 1208940 dead!
+Process 1208940 detected
+Process 1208947 dead!
+Process 1208947 detected
+Process 1208961 dead!
+Process 1208961 detected
+Process 1208991 dead!
+Process 1208991 detected
+Process 1208921 dead!
+Process 1208921 detected
+Process 1208954 dead!
+Process 1208954 detected
+Process 882820 dead!
+Process 882820 detected
+Process 882821 dead!
+Process 882821 detected
+Process 882817 dead!
+Process 882817 detected
+Process 882824 dead!
+Process 882824 detected
+Process 882814 dead!
+Process 882814 detected
+Process 882815 dead!
+Process 882815 detected
+Process 882822 dead!
+Process 882822 detected
+Process 882819 dead!
+Process 882819 detected
+Process 882818 dead!
+Process 882818 detected
+Process 882812 dead!
+Process 882812 detected
+Process 882816 dead!
+Process 882816 detected
+Process 882823 dead!
+Process 882823 detected
+Process 3699362 dead!
+Process 3699362 detected
+Process 3699360 dead!
+Process 3699360 detected
+Process 3699357 dead!
+Process 3699357 detected
+Process 3699356 dead!
+Process 3699356 detected
+Process 3699361 dead!
+Process 3699361 detected
+Process 3755066 dead!
+Process 3755066 detected
+Process 3699365 dead!
+Process 3699365 detected
+Process 3883530 dead!
+Process 3883530 detected
+Process 3767015 dead!
+Process 3767015 detected
+Process 3883495 dead!
+Process 3883495 detected
+Process 3883510 dead!
+Process 3883510 detected
+Process 3883507 dead!
+Process 3883507 detected
+Process 3883537 dead!
+Process 3883537 detected
+Process 3883523 dead!
+Process 3883523 detected
+Process 3883577 dead!
+Process 3883577 detected
+Process 3883502 dead!
+Process 3883502 detected
+Process 3883548 dead!
+Process 3883548 detected
+Process 3883570 dead!
+Process 3883570 detected
+Process 3883544 dead!
+Process 3883544 detected
+Process 3883558 dead!
+Process 3883558 detected
+Process 3542378 dead!
+Process 3542378 detected
+Process 3542288 dead!
+Process 3542288 detected
+Process 3542292 dead!
+Process 3542292 detected
+Process 3542339 dead!
+Process 3542339 detected
+Process 3542301 dead!
+Process 3542301 detected
+Process 3542264 dead!
+Process 3542264 detected
+Process 3542278 dead!
+Process 3542278 detected
+Process 3542277 dead!
+Process 3542277 detected
+Process 3542280 dead!
+Process 3542280 detected
+Process 3542335 dead!
+Process 3542335 detected
+Process 3542269 dead!
+Process 3542269 detected
+Process 3542363 dead!
+Process 3542363 detected
+Process 3542270 dead!
+Process 3542270 detected
+Process 3542300 dead!
+Process 3542300 detected
+Process 3542262 dead!
+Process 3542262 detected
+Process 3542294 dead!
+Process 3542294 detected
+Process 3542261 dead!
+Process 3542261 detected
+Process 3542287 dead!
+Process 3542287 detected
+Process 3542367 dead!
+Process 3542367 detected
+Process 3542381 dead!
+Process 3542381 detected
